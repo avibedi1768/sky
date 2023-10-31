@@ -6,15 +6,15 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 150px;
-  padding-top: 150px;
 }
 .about-image img {
-  margin-top: 150px;
+  margin-top: 300px;
   width: 450px;
   box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
   border-radius: 50px;
 }
 .about-para {
+  margin-top: 150px;
   width: 500px;
 }
 .about-para h1 {
@@ -26,11 +26,11 @@
   letter-spacing: 1px;
   font-family: "Poppins", sans-serif;
 }
-.about-para i{
+.about-para i {
   font-size: 40px;
   margin-top: 20px;
 }
-.about-para .about-element{
+.about-para .about-element {
   display: flex;
   gap: 20px;
 }
