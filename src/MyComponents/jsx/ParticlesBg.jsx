@@ -24,7 +24,7 @@ function ParticlesBg() {
             }
           },
           "color": {
-            "value": "#000000"
+            "value": "#5827ae"
           },
           "shape": {
             "type": "star",
@@ -65,7 +65,7 @@ function ParticlesBg() {
           "line_linked": {
             "enable": true,
             "distance": 600,
-            "color": "#000000",
+            "color": "#5827ae",
             "opacity": 0.4,
             "width": 2
           },
