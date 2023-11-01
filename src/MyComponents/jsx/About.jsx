@@ -33,16 +33,6 @@ function About() {
             <p><b>Feedback and Support: </b>Provide accessible channels for users to seek help and offer feedback, fostering a positive and supportive user experience.</p>
           </div>
 
-          {/* <div className='about-element'>
-            <i className="fa fa-wrench"></i>
-            <p><b>Updates and Maintenance: </b>Plan for ongoing product updates and maintenance to keep it current, bug-free, and equipped with new features.</p>
-          </div> */}
-
-          {/* <div className='about-element'>
-            <i className="fa fa-share-alt"></i>
-            <p><b>Social Sharing: </b>Incorporate social sharing features to encourage users to spread the word, increasing your product's visibility and reach.</p>
-          </div> */}
-
         </div>
       </div>
     </div>

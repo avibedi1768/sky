@@ -7,7 +7,7 @@ function Home() {
     <div id='home' className="home">
       {/* <h1>SKY.RA</h1> */}
       <img src={logo} className="App-logo" alt="logo" />
-      <div className='texts' style={{ display: 'flex', gap: '300px', justifyContent: 'center' }}>
+      <div className='texts'>
         <p>EST.</p>
         <p>2023</p>
       </div>

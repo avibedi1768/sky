@@ -1,19 +1,18 @@
-
-.home{
+.home {
   text-align: center;
   height: 100vh;
   animation: fadeInOut 3s ease-in-out;
 }
 @keyframes fadeInOut {
-  from{
+  from {
     transform: translateY(-30%);
   }
-  to{
+  to {
     transform: translateY(0);
   }
 }
-.App-logo{
-  pointer-events: none; 
+.App-logo {
+  pointer-events: none;
   margin-top: 150px;
   height: 300px;
 }
@@ -30,22 +29,43 @@
     transform: rotate(360deg);
   }
 }
-.home h1{
+.home h1 {
   font-size: 80px;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   animation: fadeInP 3s ease-in-out;
 }
 @keyframes fadeInP {
-  from{
+  from {
     transform: translateY(500%);
   }
-  to{
+  to {
     transform: translateY(0);
   }
 }
-.home p{
-  font-family: 'Poppins', sans-serif;
+.home p {
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 200;
+}
+.texts {
+  display: flex;
+  gap: 300px;
+  justify-content: center;
+}
+@media (max-width: 450px) {
+  #home .texts {
+    display: flex;
+    gap: 150px;
+  }
+  .home p{
+    /* margin: 0; */
+    font-size: 16px;
+  }
+  #home h1{
+    font-size: 36px;
+  }
+  #home img{
+    height: 200px;
+  }
 }

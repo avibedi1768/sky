@@ -33,7 +33,7 @@ function Navbar() {
       </div>
       <FontAwesomeIcon icon={faChevronDown} className="ac-ln-menucta-chevron i" onClick={show} ref={down} />
       <FontAwesomeIcon icon={faChevronUp} className="ac-ln-menucta-chevron i" onClick={hide} ref={up} style={{display:'none'}}/>
-      <button id='preorder'>Buy</button>
+      <button id='preorder'>Buy</button><br/>
       <div ref={onOpen} style={{display:'none'}}>
         <a href="#home">Home</a><br/>
         <a href="#about">About</a><br/>
