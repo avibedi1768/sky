@@ -4,14 +4,18 @@ import Home from './MyComponents/jsx/Home'
 import About from './MyComponents/jsx/About';
 import Navbar from './MyComponents/jsx/Navbar'
 import ParticlesBg from './MyComponents/jsx/ParticlesBg';
+import Product from './MyComponents/jsx/Product';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <ParticlesBg />
-      <Home />
+      <div className="particles-container">
+        <ParticlesBg />
+        <Home />
+      </div>
       <About />
+      <Product />
     </div>
   );
 }
