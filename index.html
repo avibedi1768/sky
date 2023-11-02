@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKy-Ra</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <a href="#particles-js"><h1>SKY-RA</h1></a>
+      <div class="navbar-item">
+        <a href="#particles-js">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <i class="fas fa-chevron-down" id="show"></i>
+      <i class="fas fa-chevron-up" id="hide" style="display: none"></i>
+
+      <button id="preorder">Buy</button><br />
+      <div id="on-open" style="display: none">
+        <a href="#particles-js">Home</a><br />
+        <a href="#about">About</a><br />
+        <a href="#contact">Contact</a><br />
+      </div>
+    </div>
+
+    <!-- home -->
+    <div id='particles-js' class="home">
+      <!-- <h1>SKY.RA</h1> -->
+      <img src="./img/logo.png" class="App-logo" alt="logo" />
+      <div class='texts'>
+        <p>EST.</p>
+        <p>2023</p>
+      </div>
+
+      <h1>SKY.RA</h1>
+      <p>REALITY BUT AUGMENTED</p>
+    </div>
+
+    <!-- about -->
+    <div id='about' class='about'>
+      <div class="about-image">
+        <img src="./img/aboutGif1.gif" alt="gif" />
+      </div>
+      <div class="about-para">
+        <h1>Features of SKY.RA</h1>
+        <div>
+          <div class='about-element'>
+            <i class="fa fa-bullseye"></i>
+            <p><b>Clear Value Proposition: </b>Your product should clearly communicate its unique benefits, making it evident how it solves a problem or fulfills a need for users.</p>
+          </div>
+
+          <div class='about-element'>
+            <i class="fa fa-desktop"></i>
+            <p><b>User-Friendly Interface: </b>Prioritize an intuitive and user-friendly design to ensure that users can easily navigate your product without confusion or frustration.
+            </p>
+          </div>
+
+          <div class='about-element'>
+            <i class="fa fa-rocket"></i>
+            <p><b>High-Quality Performance: </b>Deliver a reliable and responsive product with minimal bugs, ensuring that it consistently performs at its best.</p>
+          </div>
+
+          <div class='about-element'>
+            <i class="fa fa-comments"></i>
+            <p><b>Feedback and Support: </b>Provide accessible channels for users to seek help and offer feedback, fostering a positive and supportive user experience.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+  <script src="main.js"></script>
+
+  <!-- particle js -->
+  <script src="particles.js"></script>
+  <script src="app.js"></script>
+</html>
